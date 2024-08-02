@@ -1,0 +1,28 @@
+---
+title: "Brainstorming Ideas"
+date: "2024-07-20"
+categories: [idea]
+image: "image.jpg"
+---
+
+Went from PRE-PRODUCTION all the way to POST-PRODUCTION
+
+Nightmare Fuel:
+VTuber Rigging/Motion Capture - AI?
+Character Cloth Simulation - Cape!
+Fluid Simulations - Honey/Water - Good Research papers! https://www.youtube.com/watch?v=yX84nGi-V7E
+Rendering - Ray Tracing? Efficient VR rendering/lighting
+
+Easy Mode:
+Project Management for production pipelines
+	Create a re-usable repository of models
+	Repository of models for boxing layouts
+Modelling Topology https://www.youtube.com/watch?v=yX84nGi-V7E
+Procedurally Generated Texture https://www.youtube.com/watch?v=VPI9xq41nOk
+
+Ehhhhh:
+Efficient story boarding for production
+Character (Animal) Modelling
+UV unwrapping Textures
+Color Correction - Use old renders to see if they can be improved!
+Compositing - use a previous scene to compose elements into an image to improve rendering times?

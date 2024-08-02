@@ -1,8 +1,8 @@
 ---
-title: "mocap-with-kinect"
+title: "Using the Kinect to animate a character in a video game"
 listing:
   contents: posts
-  sort: "date desc"
+  sort: "date asc"
   type: default
   categories: true
   sort-ui: false

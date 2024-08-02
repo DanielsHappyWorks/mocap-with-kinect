@@ -2,10 +2,11 @@
   {
     "listing": "/index.html",
     "items": [
-      "/posts/kinect-positioning/index.html",
+      "/posts/brainstorming/index.html",
+      "/posts/mocap-on-a-budget/index.html",
       "/posts/kinect-pricing/index.html",
       "/posts/kinect-setup/index.html",
-      "/posts/mocap-on-a-budget/index.html"
+      "/posts/kinect-positioning/index.html"
     ]
   }
 ]

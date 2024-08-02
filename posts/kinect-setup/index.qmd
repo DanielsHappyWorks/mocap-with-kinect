@@ -1,9 +1,8 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
-date: "2024-08-02"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "Setting up the Kinect"
+date: "2024-08-01"
+categories: [setup, kinect]
+image: "setup.gif"
 ---
 
 This is a post with executable code.

@@ -3,10 +3,13 @@ project:
   output-dir: docs
 
 website:
-  title: "mocap-with-kinect"
+  title: "Mo-cap on a budget!"
   navbar:
-    right:
+    left:
+      - text: "Blog"
+        href: /
       - about.qmd
+    right:
       - icon: github
         href: https://github.com/DanielsHappyWorks/mocap-with-kinect
       - icon: youtube

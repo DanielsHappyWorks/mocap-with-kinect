@@ -9,7 +9,7 @@ about:
       href: https://www.youtube.com/channel/UCh4BLIfjlJCQ5Lks4nvvwwA
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/DanielsHappyWorks/mocap-with-kinect
 ---
 
 About this blog

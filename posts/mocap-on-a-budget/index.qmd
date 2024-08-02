@@ -1,12 +1,8 @@
 ---
-title: "Mocap on a budget"
-date: "2024-07-15"
+title: "Motion capture on a budget"
+date: "2024-07-23"
 categories: [idea, kinect]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
-
-```{r}
-1 + 1
-```
+https://eu.store.rokoko.com/products/smartsuit-pro-ii

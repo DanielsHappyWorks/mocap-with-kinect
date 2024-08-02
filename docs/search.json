@@ -2,9 +2,9 @@
   {
     "objectID": "posts/mocap-on-a-budget/index.html",
     "href": "posts/mocap-on-a-budget/index.html",
-    "title": "Post With Code",
+    "title": "Motion capture on a budget",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "https://eu.store.rokoko.com/products/smartsuit-pro-ii"
   },
   {
     "objectID": "posts/kinect-pricing/index.html",
@@ -14,11 +14,11 @@
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "mocap-with-kinect",
+    "objectID": "posts/brainstorming/index.html",
+    "href": "posts/brainstorming/index.html",
+    "title": "Brainstorming Ideas",
     "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nPost With Code\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\nHarlow Malloc\n\n\n\n\n\n\n\n\n\n\n\n\nMocap on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 15, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Went from PRE-PRODUCTION all the way to POST-PRODUCTION\nNightmare Fuel: VTuber Rigging/Motion Capture - AI? Character Cloth Simulation - Cape! Fluid Simulations - Honey/Water - Good Research papers! https://www.youtube.com/watch?v=yX84nGi-V7E Rendering - Ray Tracing? Efficient VR rendering/lighting\nEasy Mode: Project Management for production pipelines Create a re-usable repository of models Repository of models for boxing layouts Modelling Topology https://www.youtube.com/watch?v=yX84nGi-V7E Procedurally Generated Texture https://www.youtube.com/watch?v=VPI9xq41nOk\nEhhhhh: Efficient story boarding for production Character (Animal) Modelling UV unwrapping Textures Color Correction - Use old renders to see if they can be improved! Compositing - use a previous scene to compose elements into an image to improve rendering times?"
   },
   {
     "objectID": "about.html",
@@ -28,11 +28,18 @@
     "text": "About this blog"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Using the Kinect to animate a character in a video game",
+    "section": "",
+    "text": "Brainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
     "objectID": "posts/kinect-positioning/index.html",
     "href": "posts/kinect-positioning/index.html",
-    "title": "Post With Code",
+    "title": "Positioning for full body capture",
     "section": "",
-    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+    "text": "References\n\nBenas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024)."
   },
   {
     "objectID": "posts/kinect-setup/index.html",

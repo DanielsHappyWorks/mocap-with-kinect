@@ -1,13 +1,10 @@
 ---
-title: "Post With Code"
-author: "Harlow Malloc"
+title: "Positioning for full body capture"
 date: "2024-08-02"
-categories: [news, code, analysis]
-image: "image.jpg"
+categories: [setup, kinect]
+image: "3d_print.png"
 ---
 
-This is a post with executable code.
+# References
 
-```{r}
-1 + 1
-```
+1. <a name="Benas09"></a>Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).
