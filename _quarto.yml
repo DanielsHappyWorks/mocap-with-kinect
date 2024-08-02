@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: blog
 
 website:
   title: "mocap-with-kinect"
@@ -7,9 +8,9 @@ website:
     right:
       - about.qmd
       - icon: github
-        href: https://github.com/
-      - icon: twitter
-        href: https://twitter.com
+        href: https://github.com/DanielsHappyWorks/mocap-with-kinect
+      - icon: youtube
+        href: https://www.youtube.com/channel/UCh4BLIfjlJCQ5Lks4nvvwwA
 format:
   html:
     theme: cosmo
