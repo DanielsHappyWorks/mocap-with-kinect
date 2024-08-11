@@ -7,4 +7,4 @@ image: "3d_print.png"
 
 # References
 
-1. <a name="Benas09"></a>Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).
+1.  <a name="Benas09"></a>Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).
