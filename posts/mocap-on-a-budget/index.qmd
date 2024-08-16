@@ -5,4 +5,18 @@ categories: [idea, kinect]
 image: "image.jpg"
 ---
 
-https://eu.store.rokoko.com/products/smartsuit-pro-ii
+Motion capture is expensive. The most well known consumer grade MoCap suit costs €2,453.85 after tax without any extras like hand tracking ([Rokoko, 2024](#Rokoko)).
+![](rokoko.jpg)
+
+For most indie developers this is out of reach so we have to get inventive with how we work.
+
+After a bit of research I found that a lot of people tend to use cameras like the Kinect for simple motion capture ([Autodesk, 2017.](#Autodesk)).
+Even though its a bit dated there is a lot of used hardware on the market which could make this a fairly cheap solution in the long run.
+
+The next step is to track down some used Kinects and cables to plug them in.
+
+# References
+
+1.<a name="Rokoko"></a>Rokoko (2024) Smartsuit Pro II. Available at: <https://eu.store.rokoko.com/products/smartsuit-pro-ii> (Accessed: 16 August 2024).
+
+2.<a name="Autodesk"></a>Autodesk (2017) Help: Motion capture for amateurs / low budget, Autodesk Community. Available at: <https://forums.autodesk.com/t5/motionbuilder-forum/help-motion-capture-for-amateurs-low-budget/td-p/7227461> (Accessed: 16 August 2024). 

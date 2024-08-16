@@ -5,8 +5,44 @@ categories: [budget, kinect]
 image: "image.jpg"
 ---
 
-This is a post with executable code.
+When it comes to the Kinect there are two options, the Kinect 360 and the Xbox One Kinect. So one question arises. Which one do i use?
 
-```{r}
-1 + 1
-```
+# Kinect 360
+
+The Kinect 360 launched on November 2010 ([Whitworth, 2010](#Whitworth)) as a peripheral that could capture your movement and use it to control your player character in game.
+
+Due to its age its age its discontinued so it has to be bought used.
+
+A used Kinect 360 at CEX costs €1
+![](k360_cex.jpg)
+
+A cable to connect it to a PC costs €18
+![](k360_cbl.jpg)
+
+The total price is €19
+
+# Xbox One Kinect
+
+The successor to the Kinect 360 is more reliable and improved device with better sensors and field of view.
+
+According to forums online it also stutters less when capturing movement ([Ipisoft, n.d.](#Ipisoft)).
+
+Like the Kinect 360 due to its age its age its discontinued so it has to be bought used.
+
+A used Xbox One Kinect at CEX costs €22
+![](k1_cex.jpg)
+
+A cable to connect it to a PC costs €30
+![](k1_cbl.jpg)
+
+The total price is €52
+
+# Conclusion
+
+When compared to a MoCap suit both prices seem like a no brainier. Since I'm willing to spend a bit more I chose to use the Kinect for the Xbox One for this project.
+
+# References
+
+1.<a name="Whitworth"></a>Whitworth, D. (2010) *Kinect gets UK release date*, *BBC News*. Available at: <https://www.bbc.com/news/newsbeat-10996389> (Accessed: 16 August 2024).
+
+2.<a name="Ipisoft"></a>Ipisoft (No date) Kinect 360 vs Kinect XBOne? Available at: <https://forum.ipisoft.com/viewtopic.php?f=7&t=10114> (Accessed: 16 August 2024). 

@@ -5,6 +5,38 @@ categories: [setup, kinect]
 image: "3d_print.png"
 ---
 
+I'm going to solve the easier problem first. The positioning of the Kinect.
+
+In my head the solution is simple, I just need to lift the Kinect higher above the desk so it can see more. The Xbox one kinect can be mounted using any standard tripod mount making it easier to work with.
+
+I have a few options here:
+
+1.  Mount it on the wall
+2.  Mount it on a tripod
+3.  Mount it on the monitor
+
+I like option 3 as its not permanent and i can easily 3d print a stand myself not incurring much cost in the process as all existing mounting solutions have been discontinued and i don't own any tripods.
+
+Online I found the perfect mount that would work for my monitor ([Benas09, 2020](#Benas09)).
+
+![](3d_print.png)
+
+After cost calculation the stand worked out to be €0.87 which is extremely cheap ([Prusa Calculator, n.d.](#Prusa)). I've never actually done these calculations before and they are neat. I used the standard unit price for electricity from my provider and price of filament from when i bought it months ago.
+
+![](3d_print_price.jpg)
+
+I mounded the Kinect to the stand using zip ties that were laying around since I didn't have the right screws. It held stable on the monitor.
+
+![](mounted.jpg)
+
+Now for the moment of truth.
+
+![](moment.gif)
+
+It worked I can do full body capture, now the question is how!
+
 # References
 
-1.  <a name="Benas09"></a>Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).
+1.<a name="Benas09"></a>Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: <https://www.thingiverse.com/thing:4643116> (Accessed: 02 August 2024).
+
+2.<a name="Prusa"></a>Prusa Calculator (no date) 3D printing price calculator, Original Prusa 3D Printers. Available at: <https://blog.prusa3d.com/3d-printing-price-calculator_38905/> (Accessed: 16 August 2024). 
