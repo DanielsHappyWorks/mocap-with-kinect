@@ -21,18 +21,18 @@
     "text": "I spent a lot of time going through interesting ideas for this project evaluating all possible angles, all the way from pre to post production.\nIn the end i settled on “Motion Capture On a Budget”\n\nThis would require finding a way to capture movement and apply it to the existing Mixamo rig.\nMotion capture is not cost effective so maybe some investigation could be done on how to do this on a budget.\nIf this works i could use it to speed up my character animating workflows.\nThere is also some possible use cases for AI here.\n\nMy Other Ideas included:\n\nCharacter Rigging - Animal\nThis would require creating a character, ideally an animal and rigging it with bones from scratch to create a short animation. Form this I could learn about how rigging works with a more basic creature. It would also allow me some time to understand how animals move. \nCharacter Cloth Simulation - Cape!\nMy character in the previous project has been very rigid with skin tight clothing. I would like to learn how to evolve this and i think clothing physics might be the way to go. For this project i would try to give my character a physics simulated cape. \nFluid Simulations - Honey/Water\nThis topic has brilliant Research papers! Figuring out how liquids should behave can add great realism to games and animations. For this project I would probably try to siulate honey or water in real time. \nRendering - Ray Tracing\nI considered making a simple real time ray tracer but this is more of a coding project and I don’t think it fits well with the specification. It would be a great for learning how textures and models are rendered\nCreate a re-usable repository of models Repository of models for boxing layouts\nTo speed up blocking and better understand the space I’m working with a repository of simple models that are scaled 1:1 with each other would be very useful. The idea has a lot of potential for improving the design process.\nModelling Topology\nTopology is hard. Great topology is harder. The only way to get good is to practice. For this project I would research and compile the best practices for topology and try to apply them to a complicated model.\n\nProcedural Textures\nThere is something fascinating about procedural textures. You can make about anything. The goal with this project is to understand the steps needed to create my own custom textures.\n\nColor Correction\nUse old renders to see if they can be improved with color correction. This would at another tool to my arsenal of existing skills.\nCompositing\nUse a previous scene to compose elements into an image to improve rendering times. I actively avoided compositing before as I believe its a waste of time for smaller 3D projects but this needs to change if I am to understand the 3D pipeline."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this blog"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Using the Kinect to animate a character in a video game",
     "section": "",
     "text": "Positioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "outline.html",
+    "href": "outline.html",
+    "title": "Project Outline",
+    "section": "",
+    "text": "Introduction\nBrief overview of your research topic and area of interest.\n\n\nSpecial Area of Interest\nDefine and explain your chosen 3D production area.\n\n\nResearch Context & Literature\nSummarize literature and previous work on the topic.\n\n\nResearch Plan\nMethodology and steps for how you’ll carry out the project.\n\n\nArtefact Concept\nInitial idea of the artefact you will produce to demonstrate your research.\n\n\nTimeline\nI have already completed some of the work over the summer to figure out what I will be researching.\n\n\n\n\n\n\n\n\n\nNow I will focus on creating my artifact that has been defined as part of creating the outline.\n\n\n\n\n\n\n\n\n\n\n\nInitial Reflections\nEarly thoughts, goals, and challenges you expect.\n\n\nReferences\nList of sources you have consulted for the outline."
   },
   {
     "objectID": "posts/kinect-positioning/index.html",

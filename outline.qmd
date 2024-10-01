@@ -1,0 +1,111 @@
+---
+title: "Project Outline"
+about:
+  template: solana
+  links:
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/channel/UCh4BLIfjlJCQ5Lks4nvvwwA
+    - icon: github
+      text: Github
+      href: https://github.com/DanielsHappyWorks/mocap-with-kinect
+---
+
+# Introduction
+
+Brief overview of your research topic and area of interest.
+
+# Special Area of Interest
+
+Define and explain your chosen 3D production area.
+
+# Research Context & Literature
+
+Summarize literature and previous work on the topic.
+
+# Research Plan
+
+Methodology and steps for how you’ll carry out the project.
+
+# Artefact Concept
+
+Initial idea of the artefact you will produce to demonstrate your research.
+
+# Timeline
+
+I have already completed some of the work over the summer to figure out what I will be researching.
+
+```{r, include = FALSE}
+install.packages("ganttrify",
+  repos = c(
+    "https://giocomai.r-universe.dev",
+    "https://cloud.r-project.org"
+  )
+)
+
+library("ganttrify")
+```
+
+```{r, echo = FALSE, warning = FALSE}
+funky_project <- tibble::tribble(
+  ~wp, ~activity, ~start_date, ~end_date,
+  "Before Semester", "Brainstorming", "2024-06-01", "2024-06-23",
+  "Before Semester", "Start Blogging", "2024-06-20", "2024-8-2",
+  "Before Semester", "Initial Research", "2024-06-23", "2024-8-2",
+)
+
+ganttrify(
+  project = funky_project,
+  project_start_date = "2024-06",
+  by_date = TRUE,
+  exact_date = TRUE,
+  font_family = "Roboto Condensed"
+) +
+  ggplot2::ggtitle("Work done over the summer")
+```
+
+Now I will focus on creating my artifact that has been defined as part of creating the outline.
+
+```{r, echo = FALSE, warning = FALSE}
+funky_project <- tibble::tribble(
+  ~wp, ~activity, ~start_date, ~end_date,
+  "Blogging", "Write blog posts", "2024-10-01", "2024-12-17",
+
+  "Outline", "Write Outline", "2024-10-01", "2024-10-08",
+  "Outline", "Revise Idea", "2024-10-01", "2024-10-02",
+  "Outline", "Complie Research", "2024-10-04", "2024-10-06",
+  "Outline", "Define Artefact", "2024-10-06", "2024-10-08",
+  
+  "Progress Report", "Extract animations from kinect", "2024-10-08", "2024-10-13",
+  "Progress Report", "Map bones to existing character", "2024-10-13", "2024-10-20",
+  "Progress Report", "Figure out presentation style", "2024-10-17", "2024-10-20",
+  
+  "Alpha", "Add new animations to a game", "2024-10-20", "2024-10-25",
+  "Alpha", "Export the game new animations", "2024-10-25", "2024-10-30",
+  "Alpha", "Create presentation", "2024-10-30", "2024-11-5",
+  
+  "Symposium", "Adjust Artifact Based on Alpha", "2024-11-5", "2024-11-30",
+  "Symposium", "Export the updated artefact", "2024-11-30", "2024-12-5",
+  "Symposium", "Prepare for presentation", "2024-12-5", "2024-12-10",
+  
+  "Final Documentation", "Create Reflective Journal", "2024-12-10", "2024-12-17",
+  "Final Documentation", "Wrap Up Blog", "2024-12-10", "2024-12-17"
+)
+
+ganttrify(
+  project = funky_project,
+  project_start_date = "2024-06",
+  by_date = TRUE,
+  exact_date = TRUE,
+  font_family = "Roboto Condensed"
+) +
+  ggplot2::ggtitle("Timeline for the project")
+```
+
+# Initial Reflections
+
+Early thoughts, goals, and challenges you expect.
+
+# References
+
+List of sources you have consulted for the outline.
