@@ -1,5 +1,5 @@
 ---
-title: "Using the Kinect to animate a character in a video game"
+title: "Using the Kinect to animate characters in a video game"
 listing:
   contents: posts
   sort: "date desc"
