@@ -2,28 +2,20 @@
 title: "Outlining Project Artifact"
 date: "2024-10-03"
 categories: [idea, kinect]
-image: "image.jpg"
+image: "image.png"
 ---
 
 The last two weeks has been spent outlining the artifact for the project. As part of the artifact I will create 4 animations for my game “A Walk in the Park”.
 
 The 4 animations will include: 
 
-1.  A parent waiting for their kid 
-
-```{=html}
-<!-- -->
-```
-2.  A person walking around the park 
-
-```{=html}
-<!-- -->
-```
-3.  A person fishing in the lake 
-
-```{=html}
-<!-- -->
-```
-4.  A child on a swing – I will rock in a chair to simulate this! 
+1.  A parent waiting for their kid
+2.  A person walking around the park
+3.  A person fishing in the lake
+4.  A child on a swing – I will rock in a chair to simulate this!
 
 The outline can be found [here](/outline.html).
+
+# References
+
+1.  SDXL (2024) *Minimalist line art todo list with colorful checkboxes*, *AI Image Generator*. Available at: <https://sdxlturbo.ai/prompt/9937-Minimalist-Line-Art-ToDo-List-with-Colorful-Checkboxes> (Accessed: 12 October 2024).

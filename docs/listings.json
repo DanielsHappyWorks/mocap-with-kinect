@@ -2,6 +2,7 @@
   {
     "listing": "/index.html",
     "items": [
+      "/posts/animation-sources/index.html",
       "/posts/outlining-artefact/index.html",
       "/posts/kinect-positioning/index.html",
       "/posts/kinect-setup/index.html",

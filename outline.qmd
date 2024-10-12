@@ -1,5 +1,5 @@
 ---
-title: "Motion Capture on a Budget"
+title: "Project Outline"
 about:
   template: solana
   links:
@@ -26,17 +26,11 @@ From initial research it seems like the Kinect is my best bet as many people hav
 ### Resources for investigating technology to use on a budget: 
 
 -   Rokoko (2024) Smartsuit Pro II. Available at: <https://eu.store.rokoko.com/products/smartsuit-pro-ii> (Accessed: 16 August 2024). 
-
-<!-- -->
-
 -   Autodesk (2017) Help: Motion capture for amateurs / low budget, Autodesk Community. Available at: <https://forums.autodesk.com/t5/motionbuilder-forum/help-motion-capture-for-amateurs-low-budget/td-p/7227461> (Accessed: 16 August 2024). 
 
 #### Kinect pricing:  
 
 -   Whitworth, D. (2010) Kinect gets UK release date, BBC News. Available at: <https://www.bbc.com/news/newsbeat-10996389> (Accessed: 16 August 2024). 
-
-<!-- -->
-
 -   Ipisoft (No date) Kinect 360 vs Kinect XBOne? Available at: <https://forum.ipisoft.com/viewtopic.php?f=7&t=10114> (Accessed: 16 August 2024). 
 
 #### Kinect Setup: 
@@ -46,25 +40,13 @@ From initial research it seems like the Kinect is my best bet as many people hav
 #### Extracting Kinect Skeleton as FBX 
 
 -   Furtado Junior, A. (no date) KinectAnimationStudio - Generate motion data from your Kinect V2 Skeletons, Kinectanimationstudio. Available at: <https://marcojrfurtado.github.io/KinectAnimationStudio/index.html> (Accessed: 03 October 2024).  
-
-<!-- -->
-
 -   Evenmarbles (no date) Evenmarbles/Kinect: Extraction of Motion Capture Data from the Kinect, GitHub. Available at: <https://github.com/evenmarbles/kinect> (Accessed: 03 October 2024). 
 
 #### Other Mocap methods: 
 
 -   Mocap (Alpha) (no date) Cascadeur Documentation. Available at: <https://cascadeur.com/help/category/203> (Accessed: 03 October 2024).  
-
-<!-- -->
-
 -   Rokoko vision: Free ai motion capture tool (no date) Rokoko Vision: Free AI Motion Capture Tool. Available at: <https://www.rokoko.com/products/vision> (Accessed: 03 October 2024).  
-
-<!-- -->
-
 -   Main Page (no date) iPi Docs. Available at: <https://docs.ipisoft.com/Main_Page> (Accessed: 03 October 2024).  
-
-<!-- -->
-
 -   Brekel Body V2 (2024) Brekel. Available at: <https://brekel.com/body-v2/> (Accessed: 03 October 2024). 
 
 ### Books: 
@@ -74,29 +56,11 @@ From initial research it seems like the Kinect is my best bet as many people hav
 # Key terms 
 
 -   Kinect – Relates specifically to Xbox One Kinect Sensor. It is a console accessory composed of multiple cameras that can discern depth. It is used for body tracking in video games. 
-
-<!-- -->
-
 -   Motion Capture - Process of recording the movement of objects or people and applying them to 3d models. 
-
-<!-- -->
-
 -   Budget – Amount of money dedicated for a spending. In this case it refers to spending as little as possible. 
-
-<!-- -->
-
 -   Skeleton/Rig – Similar to a real skeleton. It is the bones that make up the virtual character and constrain their movements. 
-
-<!-- -->
-
 -   Rigging – Technique used to animate the skeleton. 
-
-<!-- -->
-
 -   Open Source – Publicly available code that can be redistributed and modified. 
-
-<!-- -->
-
 -   SDK – Stands for Software Development Kit. Allows for the creation of applications using APIs defined by the provider. In this case Microsoft provides an SDK for the Kinect. 
 
 # Questions to be addressed 
@@ -124,33 +88,12 @@ Real life people that do the same actions I will try to emulate in the Kinect ba
 ### Methods
 
 1.  Create sources for the listed animations I want to make 
-
-<!-- -->
-
 2.  I will set up the Kinect for the Xbox One and setup the SDK. 
-
-<!-- -->
-
 3.  Record an animation using the Kinect SDK while trying to emulate the sources. 
-
-<!-- -->
-
 4.  Extract the skeleton data from the recording and migrate it to a format I can use in blender. 
-
-<!-- -->
-
 5.  Map the skeleton animation to a [Mixamo](https://www.mixamo.com/#/) character & skeleton. 
-
-<!-- -->
-
 6.  Export the animation and use it in the game. 
-
-<!-- -->
-
 7.  Compare the animations to the sources and evaluate the success of the project. 
-
-<!-- -->
-
 8.  Test the game with users to see if the animations are good enough to be immersive in the environment. 
 
 ### Limitations 
@@ -164,20 +107,8 @@ I expect I will be able to create 4 animations that will be used as part of a ga
 The 4 animations will include: 
 
 1.  A parent waiting for their kid 
-
-```{=html}
-<!-- -->
-```
 2.  A person walking around the park 
-
-```{=html}
-<!-- -->
-```
 3.  A person fishing in the lake 
-
-```{=html}
-<!-- -->
-```
 4.  A child on a swing – I will rock in a chair to simulate this! 
 
 ```{r, include = FALSE}
