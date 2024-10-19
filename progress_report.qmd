@@ -1,0 +1,61 @@
+---
+title: "Project Outline"
+about:
+  template: solana
+  links:
+    - icon: youtube
+      text: Youtube
+      href: https://www.youtube.com/channel/UCh4BLIfjlJCQ5Lks4nvvwwA
+    - icon: github
+      text: Github
+      href: https://github.com/DanielsHappyWorks/mocap-with-kinect
+---
+
+# Introduction
+
+# Detailed Progress Report
+
+# Updated Timeline
+
+```{r, include = FALSE}
+install.packages("ganttrify",
+  repos = c(
+    "https://giocomai.r-universe.dev",
+    "https://cloud.r-project.org"
+  )
+)
+
+library("ganttrify")
+```
+
+```{r, echo = FALSE, warning = FALSE}
+funky_project <- tibble::tribble(
+  ~wp, ~activity, ~start_date, ~end_date,
+  "Documentation", "Write blog posts", "2024-10-20", "2024-12-17",
+  "Documentation", "Create Reflective Journal", "2024-12-10", "2024-12-17",
+  
+  "Alpha", "Create the Parent waiting for their kid Animation", "2024-10-20", "2024-10-25",
+  "Alpha", "Create the Child on a swing Animation", "2024-10-25", "2024-10-30",
+  "Alpha", "Create the Person fishing in the lake Animation", "2024-10-30", "2024-11-2",
+  "Alpha", "Evaluate the Animations against the sources", "2024-11-2", "2024-11-4",
+  "Alpha", "Document Progress", "2024-11-3", "2024-11-5",
+  
+  "Symposium", "Fully integarte the animations into the game", "2024-11-5", "2024-11-30",
+  "Symposium", "Export the game artefact", "2024-11-30", "2024-12-5",
+  "Symposium", "Prepare Powerpoint Presentation", "2024-12-5", "2024-12-10"
+)
+
+ganttrify(
+  project = funky_project,
+  project_start_date = "2024-10",
+  by_date = TRUE,
+  exact_date = TRUE,
+  font_family = "Roboto Condensed"
+)
+```
+
+# Chosen Presentation Style
+
+# Conclusions and Reflections
+
+# References

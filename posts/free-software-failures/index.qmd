@@ -1,0 +1,32 @@
+---
+title: "Failed eldrich horrors made with free software"
+date: "2024-10-18"
+categories: [source, animation]
+image: "Swinging.gif"
+---
+
+To create any 3d artifacts we need to get source material. These sources will help me understand how the animation should look after its produced. I will also be able to compare these sources with the artifact later.
+
+### Source Animations
+
+A parent waiting for their kid
+
+![](Idle.gif)
+
+A person walking around the park
+
+![](Walking.gif)
+
+A child on a swing
+
+![](Swinging.gif)
+
+A person fishing in the lake ([Bonfire Fishing, 2021](#Fishing))
+
+![](Fishing.gif)
+
+I created 3 of the 4 sources but I don't fish so i had to find an online source for this specific animation. Sourcing this was hard as most people take first person video when fishing. I spent a while cutting this video to size as it was too long.
+
+# References
+
+1.  <a name="Fishing"></a>Bonfire Fishing (2021) *Catching Some MONSTER BASS!! 3rd PERSON CATCH!!*, *YouTube*. Available at: <https://www.youtube.com/watch?v=88zYL6wFMRY> (Accessed: 12 October 2024).

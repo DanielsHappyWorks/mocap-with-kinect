@@ -23,7 +23,7 @@ From initial research it seems like the Kinect is my best bet as many people hav
 
 ### Online resources: 
 
-### Resources for investigating technology to use on a budget: 
+#### Resources for investigating technology to use on a budget: 
 
 -   Rokoko (2024) Smartsuit Pro II. Available at: <https://eu.store.rokoko.com/products/smartsuit-pro-ii> (Accessed: 16 August 2024). 
 -   Autodesk (2017) Help: Motion capture for amateurs / low budget, Autodesk Community. Available at: <https://forums.autodesk.com/t5/motionbuilder-forum/help-motion-capture-for-amateurs-low-budget/td-p/7227461> (Accessed: 16 August 2024). 
