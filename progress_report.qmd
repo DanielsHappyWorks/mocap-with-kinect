@@ -40,7 +40,7 @@ funky_project <- tibble::tribble(
   "Alpha", "Evaluate the Animations against the sources", "2024-11-2", "2024-11-4",
   "Alpha", "Document Progress", "2024-11-3", "2024-11-5",
   
-  "Symposium", "Fully integarte the animations into the game", "2024-11-5", "2024-11-30",
+  "Symposium", "Fully integrate the animations into the game", "2024-11-5", "2024-11-30",
   "Symposium", "Export the game artefact", "2024-11-30", "2024-12-5",
   "Symposium", "Prepare Powerpoint Presentation", "2024-12-5", "2024-12-10"
 )
