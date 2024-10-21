@@ -1,5 +1,5 @@
 ---
-title: "Project Outline"
+title: "Progress Report"
 about:
   template: solana
   links:
@@ -13,7 +13,29 @@ about:
 
 # Introduction
 
+Since the outline I have achieved a major milestone. I created an animation using the Kinect depth sensors and imported it into UE5. I encountered a multitude of issues with free software and opted to use [[Brekel Body v2]{.underline}](https://brekel.com/body-v2/). These issues made me change course from the original plan of working on every animation at the same time at each step to working on one animation at a time until it can be used on a character inside of UE5. This is reflected in my updated timeline.
+
 # Detailed Progress Report
+
+## Free Software
+
+Using free software I tried to create the walk-cycle. It seemed like a good place to start since it's a basic enough animation. I got far enough as I was able to export the bones out of the Kinect SDK.
+
+This is where my progress stopped. The animations were very jittery, and I couldn’t figure out how to use the bone structure with a [[Mixamo]{.underline}](https://www.mixamo.com/#/?page=1&type=Character) character model. I tried using [[Rokoko]{.underline}](https://github.com/Rokoko/rokoko-studio-live-blender) to retarget the animation to another bone structure but kept failing. At this point I was slightly defeated and all I could produce was Eldrich horrors.
+
+For more information see blog entry [[here]{.underline}](https://danielshappyworks.github.io/mocap-with-kinect/posts/free-software-failures/)
+
+## Brekel to the Rescue
+
+After looking at alternatives, I decided to use Brekel as it is the cheapest and has a decent free trial. Within a few minutes, I had a character animation that was smoother and could be easily remapped using a [[Rokoko blender plugin]{.underline}](https://github.com/Rokoko/rokoko-studio-live-blender) to the [[Mixamo]{.underline}](https://www.mixamo.com/#/?page=1&type=Character) rig.
+
+For more information see blog entry [[here]{.underline}](https://danielshappyworks.github.io/mocap-with-kinect/posts/budget-increases-with-brekel/)
+
+## Integrating the first animations
+
+After so many issues, I decided to import the animation into Unreal to make sure my process works end to end. This failed. The animations were all broken. They looked fine in blender but acted weird in UE5.
+
+Fortunately, this was only a scaling problem between blender and UE5 and once I solved this, I was able to see the animation properly. For more information, see the Brekel blog entry.
 
 # Updated Timeline
 
@@ -56,6 +78,10 @@ ganttrify(
 
 # Chosen Presentation Style
 
+For the symposium, I want to give a PowerPoint presentation which will follow the journey I took and conclude on the questions I asked as part of my outline for the project.
+
 # Conclusions and Reflections
 
-# References
+The budget is unfortunately now up to €190 based on current exchange rates. This goes against my original plan but since there are multiple limitations with the free software, this is the best way to continue the project. I'm sure if I had more time and knowledge of character rigging, I could make the free approach work but right now I have neither and I need to keep this moving along. I will try to make do with the trial version of the software for now and see if I can request a license for further testing for the duration of the project to avoid incurring any costs.
+
+My original process had changed but this is a vast improvement in workflow because now I have an idea of what steps are needed to create a new animation. I hope to get the next few animations out faster so I can work on integrating them into the game so I can use the demo as part of my Symposium presentation.

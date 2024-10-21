@@ -9,6 +9,7 @@ website:
       - text: "Blog"
         href: /
       - outline.qmd
+      - progress_report.qmd
     right:
       - icon: github
         href: https://github.com/DanielsHappyWorks/mocap-with-kinect

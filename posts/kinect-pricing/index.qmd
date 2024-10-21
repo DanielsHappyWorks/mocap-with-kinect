@@ -9,7 +9,7 @@ When it comes to the Kinect there are two options, the Kinect 360 and the Xbox O
 
 # Kinect 360
 
-The Kinect 360 launched on November 2010 ([Whitworth, 2010](#Whitworth)) as a peripheral that could capture your movement and use it to control your player character in game.
+The Kinect 360 launched on November 2010 (Whitworth, 2010) as a peripheral that could capture your movement and use it to control your player character in game.
 
 Due to its age its age its discontinued so it has to be bought used.
 
@@ -23,7 +23,7 @@ The total price is €19
 
 The successor to the Kinect 360 is more reliable and improved device with better sensors and field of view.
 
-According to forums online it also stutters less when capturing movement ([Ipisoft, n.d.](#Ipisoft)).
+According to forums online it also stutters less when capturing movement (Ipisoft, n.d.).
 
 Like the Kinect 360 due to its age its age its discontinued so it has to be bought used.
 
@@ -39,6 +39,6 @@ When compared to a MoCap suit both prices seem like a no brainier. Since I'm wil
 
 # References
 
-1.<a name="Whitworth"></a>Whitworth, D. (2010) *Kinect gets UK release date*, *BBC News*. Available at: <https://www.bbc.com/news/newsbeat-10996389> (Accessed: 16 August 2024).
+1.Whitworth, D. (2010) *Kinect gets UK release date*, *BBC News*. Available at: <https://www.bbc.com/news/newsbeat-10996389> (Accessed: 16 August 2024).
 
-2.<a name="Ipisoft"></a>Ipisoft (No date) Kinect 360 vs Kinect XBOne? Available at: <https://forum.ipisoft.com/viewtopic.php?f=7&t=10114> (Accessed: 16 August 2024).
+2.Ipisoft (No date) Kinect 360 vs Kinect XBOne? Available at: <https://forum.ipisoft.com/viewtopic.php?f=7&t=10114> (Accessed: 16 August 2024).

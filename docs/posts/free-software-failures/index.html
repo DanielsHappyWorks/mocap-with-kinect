@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../outline.html"> 
 <span class="menu-text">Project Outline</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../progress_report.html"> 
+<span class="menu-text">Progress Report</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -122,7 +126,7 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title column-body">
       <h1 class="title">Failed eldrich horrors made with free software</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">source</div>
+                <div class="quarto-category">kinect</div>
                 <div class="quarto-category">animation</div>
               </div>
                   </div>
@@ -154,10 +158,27 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>TODO</p>
+<p>Opening up the Kinect SDK and KinectAnimationStudio I was able to very quickly export a walking animation to an fbx file. This is unfortunately where I hit my first road block. Blender was complaining that the fbx file was ASCII encoded and could not be read.</p>
+<p><img src="error.jpg" class="img-fluid"></p>
+<p>To fix this I used Autodesk FBX Converter 2013. It’s a legacy piece of software but it got the job done, allowing Blender to open the animation.</p>
+<p>When I got the animation open in Blender, I noticed a few things.</p>
+<ol type="1">
+<li>There was a lot of jitter in the animation.</li>
+<li>The animation was exported at a weird angle, and was walking up and down.</li>
+<li>There were less bones then I expected.</li>
+<li>When recording, facing away from the camera caused the bones to distort widely.</li>
+</ol>
+<p><img src="imported.gif" class="img-fluid"></p>
+<p>There seemed to be a few more problems then anticipated so I decided to map the animation to a Mixamo character. I tried to do this by re-targeting the animation using the Rokoko Blender plugin. This is where the true Eldrich horrors started. The mapping was applying the character to the correct bones but in the wrong orientation and the constraints &amp; weights seemed to distort the character to no end.</p>
+<p><img src="image.gif" class="img-fluid"></p>
+<p>In the end, I only solved problem 2 by removing the animation’s rotation and position on the hips. Unfortunately I still had 4 problems left and one of them was the bones themselves.</p>
+<p><a href="https://www.youtube.com/playlist?list=PLZpDYt0cyiuvd2X6ucSYilKJD6rKK2Uys">This video playlist</a> indicates what I am trying to do is possible. It should be possible to use these exported bones but the issues that arise and effort required to fix them is probably not worth it. My knowledge of rigging is not good enough to fully understand what is being done here.</p>
+<p>At this point, I need to reconsider my approach. Maybe using paid software would be the easier way out if I want to use characters from Mixamo and not have to rig them myself.</p>
 <section id="references" class="level1">
 <h1>References</h1>
-<p>TODO</p>
+<p>1.Furtado, M. (no date) <em>Kinectanimationstudio</em>. Available at: <a href="https://marcojrfurtado.github.io/KinectAnimationStudio/" class="uri">https://marcojrfurtado.github.io/KinectAnimationStudio/</a> (Accessed: 18 October 2024)</p>
+<p>2.Rokoko (no date) Rokoko-studio-live-blender: Rokoko studio live plugin for Blender, GitHub. Available at: <a href="https://github.com/Rokoko/rokoko-studio-live-blender" class="uri">https://github.com/Rokoko/rokoko-studio-live-blender</a> (Accessed: 18 October 2024).</p>
+<p>3.Mixamo (No date) Mixamo. Available at: <a href="https://www.mixamo.com/#/?page=1&amp;type=Character" class="uri">https://www.mixamo.com/#/?page=1&amp;type=Character</a> (Accessed: 18 October 2024)</p>
 
 
 </section>

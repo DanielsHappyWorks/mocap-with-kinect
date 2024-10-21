@@ -5,7 +5,7 @@ categories: [setup, kinect]
 image: "setup.gif"
 ---
 
-The first step to using the Kinect for MoCap purposes is to Install the drives and then plug it in ([Microsoft, 2022](#Microsoft)).
+The first step to using the Kinect for MoCap purposes is to Install the drives and then plug it in (Microsoft, 2022).
 
 In hindsight that's easy, but I plugged it in and then installed the drivers. Oh boy was a mistake. The lesson here, always read the installation instructions!!!
 
@@ -23,4 +23,4 @@ Now the age old question how do i get this data out and what do I do about the d
 
 # References
 
-1.<a name="Microsoft"></a>Microsoft (2022) Kinect for windows. Available at: <https://learn.microsoft.com/en-us/windows/apps/design/devices/kinect-for-windows> (Accessed: 16 August 2024). 
+1.Microsoft (2022) Kinect for windows. Available at: <https://learn.microsoft.com/en-us/windows/apps/design/devices/kinect-for-windows> (Accessed: 16 August 2024).

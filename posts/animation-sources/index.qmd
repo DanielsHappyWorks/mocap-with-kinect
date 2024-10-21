@@ -21,7 +21,7 @@ A child on a swing
 
 ![](Swinging.gif)
 
-A person fishing in the lake ([Bonfire Fishing, 2021](#Fishing))
+A person fishing in the lake (Bonfire Fishing, 2021)
 
 ![](Fishing.gif)
 
@@ -29,4 +29,4 @@ I created 3 of the 4 sources but I don't fish so i had to find an online source 
 
 # References
 
-1. <a name="Fishing"></a>Bonfire Fishing (2021) *Catching Some MONSTER BASS!! 3rd PERSON CATCH!!*, *YouTube*. Available at: <https://www.youtube.com/watch?v=88zYL6wFMRY> (Accessed: 12 October 2024).
+1.  Bonfire Fishing (2021) *Catching Some MONSTER BASS!! 3rd PERSON CATCH!!*, *YouTube*. Available at: <https://www.youtube.com/watch?v=88zYL6wFMRY> (Accessed: 12 October 2024).

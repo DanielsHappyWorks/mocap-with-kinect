@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Using the Kinect to Animate Characters in a Video Game",
     "section": "",
-    "text": "Brekel: Improved MoCap at increased cost\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFailed eldrich horrors made with free software\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnimation Sources\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOutlining Project Artifact\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Brekel: Improved MoCap at increased cost\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFailed eldrich horrors made with free software\n\n\n\n\n\n\nkinect\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnimation Sources\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOutlining Project Artifact\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outline.html",
@@ -39,7 +39,7 @@
     "href": "posts/kinect-positioning/index.html",
     "title": "Positioning for full body capture",
     "section": "",
-    "text": "I’m going to solve the easier problem first. The positioning of the Kinect.\nIn my head the solution is simple, I just need to lift the Kinect higher above the desk so it can see more. The Xbox one kinect can be mounted using any standard tripod mount making it easier to work with.\nI have a few options here:\n\nMount it on the wall\nMount it on a tripod\nMount it on the monitor\n\nI like option 3 as its not permanent and i can easily 3d print a stand myself not incurring much cost in the process as all existing mounting solutions have been discontinued and i don’t own any tripods.\nOnline I found the perfect mount that would work for my monitor (Benas09, 2020).\n\nAfter cost calculation the stand worked out to be €0.87 which is extremely cheap (Prusa Calculator, n.d.). I’ve never actually done these calculations before and they are neat. I used the standard unit price for electricity from my provider and price of filament from when i bought it months ago.\n\nI mounded the Kinect to the stand using zip ties that were laying around since I didn’t have the right screws. It held stable on the monitor.\n\nNow for the moment of truth.\n\nIt worked I can do full body capture, now the question is how!\n\nReferences\n1.Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).\n2.Prusa Calculator (no date) 3D printing price calculator, Original Prusa 3D Printers. Available at: https://blog.prusa3d.com/3d-printing-price-calculator_38905/ (Accessed: 16 August 2024)."
+    "text": "I’m going to solve the easier problem first. The positioning of the Kinect.\nIn my head the solution is simple, I just need to lift the Kinect higher above the desk so it can see more. The Xbox one kinect can be mounted using any standard tripod mount making it easier to work with.\nI have a few options here:\n\nMount it on the wall\nMount it on a tripod\nMount it on the monitor\n\nI like option 3 as its not permanent and i can easily 3d print a stand myself not incurring much cost in the process as all existing mounting solutions have been discontinued and i don’t own any tripods.\nOnline I found the perfect mount that would work for my monitor (Benas09, 2020).\n\nAfter cost calculation the stand worked out to be €0.87 which is extremely cheap (Prusa Calculator, n.d.). I’ve never actually done these calculations before and they are neat. I used the standard unit price for electricity from my provider and price of filament from when i bought it months ago.\n\nI mounded the Kinect to the stand using zip ties that were laying around since I didn’t have the right screws. It held stable on the monitor.\n\nNow for the moment of truth.\n\nIt worked I can do full body capture, now the question is how!\n\nReferences\n1.&gt;Benas09 (2020) Kinect2 Mount to Samsung Flat TV, Thingiverse. Available at: https://www.thingiverse.com/thing:4643116 (Accessed: 02 August 2024).\n2.Prusa Calculator (no date) 3D printing price calculator, Original Prusa 3D Printers. Available at: https://blog.prusa3d.com/3d-printing-price-calculator_38905/ (Accessed: 16 August 2024)."
   },
   {
     "objectID": "posts/kinect-setup/index.html",
@@ -81,13 +81,34 @@
     "href": "posts/free-software-failures/index.html",
     "title": "Failed eldrich horrors made with free software",
     "section": "",
-    "text": "TODO\n\nReferences\nTODO"
+    "text": "Opening up the Kinect SDK and KinectAnimationStudio I was able to very quickly export a walking animation to an fbx file. This is unfortunately where I hit my first road block. Blender was complaining that the fbx file was ASCII encoded and could not be read.\n\nTo fix this I used Autodesk FBX Converter 2013. It’s a legacy piece of software but it got the job done, allowing Blender to open the animation.\nWhen I got the animation open in Blender, I noticed a few things.\n\nThere was a lot of jitter in the animation.\nThe animation was exported at a weird angle, and was walking up and down.\nThere were less bones then I expected.\nWhen recording, facing away from the camera caused the bones to distort widely.\n\n\nThere seemed to be a few more problems then anticipated so I decided to map the animation to a Mixamo character. I tried to do this by re-targeting the animation using the Rokoko Blender plugin. This is where the true Eldrich horrors started. The mapping was applying the character to the correct bones but in the wrong orientation and the constraints & weights seemed to distort the character to no end.\n\nIn the end, I only solved problem 2 by removing the animation’s rotation and position on the hips. Unfortunately I still had 4 problems left and one of them was the bones themselves.\nThis video playlist indicates what I am trying to do is possible. It should be possible to use these exported bones but the issues that arise and effort required to fix them is probably not worth it. My knowledge of rigging is not good enough to fully understand what is being done here.\nAt this point, I need to reconsider my approach. Maybe using paid software would be the easier way out if I want to use characters from Mixamo and not have to rig them myself.\n\nReferences\n1.Furtado, M. (no date) Kinectanimationstudio. Available at: https://marcojrfurtado.github.io/KinectAnimationStudio/ (Accessed: 18 October 2024)\n2.Rokoko (no date) Rokoko-studio-live-blender: Rokoko studio live plugin for Blender, GitHub. Available at: https://github.com/Rokoko/rokoko-studio-live-blender (Accessed: 18 October 2024).\n3.Mixamo (No date) Mixamo. Available at: https://www.mixamo.com/#/?page=1&type=Character (Accessed: 18 October 2024)"
   },
   {
     "objectID": "progress_report.html",
     "href": "progress_report.html",
-    "title": "Project Outline",
+    "title": "Progress Report",
     "section": "",
-    "text": "Introduction\n\n\nDetailed Progress Report\n\n\nUpdated Timeline\n\n\n\n\n\n\n\n\n\n\n\nChosen Presentation Style\n\n\nConclusions and Reflections\n\n\nReferences"
+    "text": "Since the outline I have achieved a major milestone. I created an animation using the Kinect depth sensors and imported it into UE5. I encountered a multitude of issues with free software and opted to use Brekel Body v2. These issues made me change course from the original plan of working on every animation at the same time at each step to working on one animation at a time until it can be used on a character inside of UE5. This is reflected in my updated timeline."
+  },
+  {
+    "objectID": "progress_report.html#free-software",
+    "href": "progress_report.html#free-software",
+    "title": "Progress Report",
+    "section": "Free Software",
+    "text": "Free Software\nUsing free software I tried to create the walk-cycle. It seemed like a good place to start since it’s a basic enough animation. I got far enough as I was able to export the bones out of the Kinect SDK.\nThis is where my progress stopped. The animations were very jittery, and I couldn’t figure out how to use the bone structure with a Mixamo character model. I tried using Rokoko to retarget the animation to another bone structure but kept failing. At this point I was slightly defeated and all I could produce was Eldrich horrors.\nFor more information see blog entry here"
+  },
+  {
+    "objectID": "progress_report.html#brekel-to-the-rescue",
+    "href": "progress_report.html#brekel-to-the-rescue",
+    "title": "Progress Report",
+    "section": "Brekel to the Rescue",
+    "text": "Brekel to the Rescue\nAfter looking at alternatives, I decided to use Brekel as it is the cheapest and has a decent free trial. Within a few minutes, I had a character animation that was smoother and could be easily remapped using a Rokoko blender plugin to the Mixamo rig.\nFor more information see blog entry here"
+  },
+  {
+    "objectID": "progress_report.html#integrating-the-first-animations",
+    "href": "progress_report.html#integrating-the-first-animations",
+    "title": "Progress Report",
+    "section": "Integrating the first animations",
+    "text": "Integrating the first animations\nAfter so many issues, I decided to import the animation into Unreal to make sure my process works end to end. This failed. The animations were all broken. They looked fine in blender but acted weird in UE5.\nFortunately, this was only a scaling problem between blender and UE5 and once I solved this, I was able to see the animation properly. For more information, see the Brekel blog entry."
   }
 ]
