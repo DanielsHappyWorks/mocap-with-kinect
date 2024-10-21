@@ -97,6 +97,10 @@ ul.task-list li input[type="checkbox"] {
     <a class="nav-link" href="../../outline.html"> 
 <span class="menu-text">Project Outline</span></a>
   </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../progress_report.html"> 
+<span class="menu-text">Progress Report</span></a>
+  </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item compact">
@@ -122,7 +126,8 @@ ul.task-list li input[type="checkbox"] {
     <div class="quarto-title column-body">
       <h1 class="title">Brekel: Improved MoCap at increased cost</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">source</div>
+                <div class="quarto-category">budget</div>
+                <div class="quarto-category">kinect</div>
                 <div class="quarto-category">animation</div>
               </div>
                   </div>
@@ -154,10 +159,33 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>TODO</p>
+<section id="budget-hike" class="level1">
+<h1>Budget Hike</h1>
+<p>After evaluating my options, I decided to opt for paid software. Between <a href="https://www.ipisoft.com/store">iPi</a> and <a href="https://brekel.com/shop/18-body">Brekel</a>, the choice was obviously Brekel for the price. For the pricing of iPi, I would start considering a Rokoko suit instead. For the purpose of this project, I will try to make do with the trial to avoid incurring additional expenses.</p>
+<p>This brings the total to €190.67 with the hardware costs of €52.87 and Brekel Body V2/V3 costing €137.80.</p>
+<p>If I wanted more accuracy, I would need to spend €382.26 on 2 Kinects and €276.52 on Brekel with Multi-Sensor support. With this budget, maybe it’s time to start considering actual mocap solutions like Rokoko.</p>
+</section>
+<section id="progress-with-brekel" class="level1">
+<h1>Progress with Brekel</h1>
+<p>With Brekel v2 Body, I created an fbx animation within minutes. There were no issues importing it to Blender. The orientation was correct and the animation was easily mapped onto the Mixamo rig. Issues with jittering were resolved by the software at recording time. The only thing I needed to adjust for the walk cycle was the positioning but that was done the same way as the previous approach. The software has a lot of settings so the animations may be even better with more time to tinker.</p>
+<p><img src="rigged.gif" class="img-fluid"></p>
+<p>Once I had the animation, I wanted to see it in UE5. I needed to see the end-to-end pipeline working before I would consider this a success. And guess what, another problem arose. The animations didn’t import correctly at all. It looked like the model collapsed in on itself.</p>
+<p><img src="import_issue.gif" class="img-fluid"></p>
+<p>Fortunately for me, this was a Blender issue. The scaling between Blender and UE5 is different so UE5 was treating the bones as tiny on the animation I was importing. I resolved it with the help of this <a href="https://www.youtube.com/watch?v=YbWfoyf4MqI&amp;t=365s">video</a> by:</p>
+<ol type="1">
+<li>Changing unit scale from 1 to 0.01</li>
+<li>Scaling the rig by 100 in every direction</li>
+<li>Applying the scaling (Ctrl+A &amp; Apply Scaling)</li>
+<li>Import again with success</li>
+</ol>
+<p><img src="image.gif" class="img-fluid"></p>
+<p>Not all issues have been fixed by this approach but it’s much more streamlined and efficient. Sideways/Back animations are still a big problem as they require multiple Kinects to fix but the software is more expensive if you want to use those. With the goal of being on a budget, I will not try to resolve this as part of the project.</p>
+</section>
 <section id="references" class="level1">
 <h1>References</h1>
-<p>TODO</p>
+<p>1.Brekel (2024) Brekel Body V2, Brekel. Available at: <a href="https://brekel.com/body-v2/" class="uri">https://brekel.com/body-v2/</a> (Accessed: 21 October 2024).</p>
+<p>2.Rokoko (no date) Rokoko-studio-live-blender: Rokoko studio live plugin for Blender, GitHub. Available at: <a href="https://github.com/Rokoko/rokoko-studio-live-blender" class="uri">https://github.com/Rokoko/rokoko-studio-live-blender</a> (Accessed: 18 October 2024).</p>
+<p>3.Mixamo (No date) Mixamo. Available at: <a href="https://www.mixamo.com/#/?page=1&amp;type=Character" class="uri">https://www.mixamo.com/#/?page=1&amp;type=Character</a> (Accessed: 18 October 2024)</p>
 
 
 </section>
