@@ -110,5 +110,54 @@
     "title": "Progress Report",
     "section": "Integrating the first animations",
     "text": "Integrating the first animations\nAfter so many issues, I decided to import the animation into Unreal to make sure my process works end to end. This failed. The animations were all broken. They looked fine in blender but acted weird in UE5.\nFortunately, this was only a scaling problem between blender and UE5 and once I solved this, I was able to see the animation properly. For more information, see the Brekel blog entry."
+  },
+  {
+    "objectID": "artefact_design.html",
+    "href": "artefact_design.html",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "",
+    "text": "It is an interactive experience where you get to walk around a park. There are multiple points of interest the player can visit and interact with. These areas will have unique sounds to immerse the user in the experience.\nThis project is inspired by one of my favorite activities which is visiting my local park for a walk and taking some time to take the nature in. This game is loosely based on the Dún na Sí Amenity & Heritage Park in the Irish Midlands (Dún na Sí, 2022)."
+  },
+  {
+    "objectID": "artefact_design.html#environmental-realism",
+    "href": "artefact_design.html#environmental-realism",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "Environmental Realism",
+    "text": "Environmental Realism\nAudio should match the player’s expectations and bring virtual worlds to life, making them feel more realistic and believable (Andersen, 2024). The correct sounds should play in the environment and when the player does something. Missing the mark on this will make the experience unappealing to everyone."
+  },
+  {
+    "objectID": "artefact_design.html#guided-exploration",
+    "href": "artefact_design.html#guided-exploration",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "Guided Exploration",
+    "text": "Guided Exploration\nSounds can guide player to points of interest without them even realizing it (Phantom Cave,2024). Distant points can use proximity sounds to tell the player there is something there. This can indicate points of interest to the player, for example we can hear a fisherman fishing in the distance."
+  },
+  {
+    "objectID": "artefact_design.html#setting-the-mood",
+    "href": "artefact_design.html#setting-the-mood",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "Setting the Mood",
+    "text": "Setting the Mood\nThe sound design can create the atmosphere intended by the game (Juegoadmin, 2024). We can use it to set the mood and elicit emotions. This experience aims to be lively yet calming while evoking a feeling of nostalgia and warmth."
+  },
+  {
+    "objectID": "artefact_design.html#how-will-the-sounds-be-recorded",
+    "href": "artefact_design.html#how-will-the-sounds-be-recorded",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "How will the sounds be recorded",
+    "text": "How will the sounds be recorded\nThe sounds will be recorded in Audacity using a portable computer called a Steam Deck. A Yeti Nano microphone with headphones connected directly to it will be used as the audio input device. The goal here is to work with the best equipment I own to record the sounds in the hopes that the quality is good.\nThe sounds will be produced using the .wav format to allow better quality of recording."
+  },
+  {
+    "objectID": "artefact_design.html#how-will-the-sounds-be-sourced",
+    "href": "artefact_design.html#how-will-the-sounds-be-sourced",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "How will the sounds be sourced",
+    "text": "How will the sounds be sourced\nI will source sounds with the license Creative Commons 0 online on websites like freesound.org. I will keep track of these for future documentation."
+  },
+  {
+    "objectID": "artefact_design.html#areas-of-interest",
+    "href": "artefact_design.html#areas-of-interest",
+    "title": "A Walk in the Park - Audio Game Design",
+    "section": "Areas of Interest",
+    "text": "Areas of Interest\nThere are multiple areas of interest in the park. These are the playground, football pitch, fishing spot and art pieces. Each area will be explorable with some interactions for the player to partake in.\nAvailable Interactions:\n\nWatching a fisherman fish\nPlaying with a football\nChild swinging on a swing with parent watching over them\nSpinning on a merry-go-round\nAppreciating some art sculptures\nSwimming\nBird watching\nNPCs walking around the park"
   }
 ]

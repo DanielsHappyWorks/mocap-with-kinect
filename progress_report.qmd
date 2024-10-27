@@ -2,13 +2,6 @@
 title: "Progress Report"
 about:
   template: solana
-  links:
-    - icon: youtube
-      text: Youtube
-      href: https://www.youtube.com/channel/UCh4BLIfjlJCQ5Lks4nvvwwA
-    - icon: github
-      text: Github
-      href: https://github.com/DanielsHappyWorks/mocap-with-kinect
 ---
 
 # Introduction

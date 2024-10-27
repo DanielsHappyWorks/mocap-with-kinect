@@ -1,0 +1,135 @@
+---
+title: "A Walk in the Park - Audio Game Design"
+about:
+  template: solana
+---
+
+# What is A Walk in the Park
+
+It is an interactive experience where you get to walk around a park. There are multiple points of interest the player can visit and interact with. These areas will have unique sounds to immerse the user in the experience.
+
+This project is inspired by one of my favorite activities which is visiting my local park for a walk and taking some time to take the nature in. This game is loosely based on the *Dún na Sí Amenity & Heritage Park in the Irish Midlands (Dún na Sí, 2022).*
+
+# Function of audio in A Walk in the Park
+
+Audio serves many functions in games and interactive experiences. “A Walk in the Park” requires player immersion to work. I will achieve this with sounds that produce environmental realism, guided exploration and correct mood.
+
+## Environmental Realism
+
+Audio should match the player's expectations and bring virtual worlds to life, making them feel more realistic and believable (Andersen, 2024). The correct sounds should play in the environment and when the player does something. Missing the mark on this will make the experience unappealing to everyone.
+
+## Guided Exploration
+
+Sounds can guide player to points of interest without them even realizing it (Phantom Cave,2024). Distant points can use proximity sounds to tell the player there is something there. This can indicate points of interest to the player, for example we can hear a fisherman fishing in the distance.
+
+## Setting the Mood
+
+The sound design can create the atmosphere intended by the game (Juegoadmin, 2024). We can use it to set the mood and elicit emotions. This experience aims to be lively yet calming while evoking a feeling of nostalgia and warmth.
+
+# Inspirations
+
+{{< video https://www.youtube.com/watch?v=5wMBgSrLmGg >}}
+
+{{< video https://www.youtube.com/watch?v=RwIXHBZaNw0 >}}
+
+# Sound Production Plan
+
+I plan on recording and sourcing sounds for this immersive experience. These sounds will be edited in [[Reaper]{.underline}](https://www.reaper.fm/) and [[Audacity]{.underline}](https://www.audacityteam.org/) to apply the functions of audio described above.
+
+## How will the sounds be recorded
+
+The sounds will be recorded in Audacity using a portable computer called a [[Steam Deck]{.underline}](https://store.steampowered.com/steamdeck/). A [[Yeti Nano]{.underline}](https://www.logitechg.com/en-us/products/streaming-gear/yeti-nano-usb-microphone.html) microphone with headphones connected directly to it will be used as the audio input device. The goal here is to work with the best equipment I own to record the sounds in the hopes that the quality is good.
+
+The sounds will be produced using the .wav format to allow better quality of recording.
+
+## How will the sounds be sourced
+
+I will source sounds with the license Creative Commons 0 online on websites like [[freesound.org]{.underline}](http://www.freesound.org/). I will keep track of these for future documentation.
+
+# Sound Implementation Plan
+
+This project will be using the Unreal 5.4.4 engine with C++ and Blueprints for coding. The implementation will produce a PC Game that will be published to [[Itch.io]{.underline}](http://Itch.io/).
+
+Sound Cues will be used to control the sounds via code and animations. Some sound cues will be played from the scenes and 3D animations while others will be triggered with collisions and interactions. Things like pitch and speed may be randomized via code for more variety of sounds too (AlexG, n.d.).
+
+# Game Map
+
+![](map.jpg)
+
+The numbers on the game map correlate to the Sound List below.
+
+For example, the gravel path (marked with 1) maps to the Footsteps on Gravel sound in the Sound List.
+
+## Areas of Interest
+
+There are multiple areas of interest in the park. These are the playground, football pitch, fishing spot and art pieces. Each area will be explorable with some interactions for the player to partake in.
+
+Available Interactions:
+
+1.  Watching a fisherman fish
+
+2.  Playing with a football
+
+3.  Child swinging on a swing with parent watching over them
+
+4.  Spinning on a merry-go-round
+
+5.  Appreciating some art sculptures
+
+6.  Swimming
+
+7.  Bird watching
+
+8.  NPCs walking around the park
+
+# Sound List
+
+|     |                                |                |             |          |        |
+|-----|--------------------------------|----------------|-------------|----------|--------|
+| ID  | Description                    | Location       | Trigger     | Category | Plan   |
+| 0   | Optional piano/guitar music    | Global         | Toggle?     | Music    | Source |
+| 1   | Footsteps on Gravel            | Gravel         | Walk        | SFX      | Record |
+| 2   | Footsteps on Pavement          | Pavement       | Walk        | SFX      | Record |
+| 3   | Footsteps on Grass             | Grass          | Walk        | SFX      | Record |
+| 4   | Footsteps on Bridge            | Bridge         | Walk        | SFX      | Record |
+| 5   | Wind                           | Anywhere       | Random      | Ambiance | Record |
+| 6   | Trees Rustling                 | Beside Trees   | Wind        | Ambiance | Record |
+| 7   | Birds Chirping in the distance | Beside Trees   | Random      | Ambiance | Record |
+| 8   | Breathing                      | Player         | Always      | Ambiance | Record |
+| 9   | Swinging on a swing            | Playground     | Proximity   | SFX      | Record |
+| 10  | Kicking a ball                 | Football Pitch | Collision   | SFX      | Record |
+| 11  | Ball collisions                | Football Pitch | Collision   | SFX      | Record |
+| 12  | Bird Chirping up close         | Foot Paths     | Proximity   | SFX      | Source |
+| 13  | Bird flying away               | Foot Paths     | Trigger     | SFX      | Source |
+| 14  | Flowing River                  | River          | Proximity   | SFX      | Source |
+| 15  | Shimmering Lake                | Lake           | Proximity   | SFX      | Source |
+| 16  | Reeling in Fishing line        | Beside Lake    | Proximity   | SFX      | Source |
+| 17  | Casting Fishing line           | Beside Lake    | Proximity   | SFX      | Source |
+| 18  | Water Splashing                | Water          | Swim        | SFX      | Source |
+| 19  | Spinning merry-go-round        | Park           | Interaction | SFX      | Record |
+
+# Scope
+
+Due to time constraints all 3D assets (AleksandrIvanov, 2022) will be sourced from the internet which may limit the possible interactions I can make. I have a solid list of interaction ideas that I think will be interesting. I will adjust scope as needed to add and/or remove interactions later depending on time constraints.
+
+# Reflection
+
+My recording setup is limited. I have a good setup for indoor podcasting but it's not really suitable for outdoors. I will make the best of this as I'm too far from the institute to borrow proper equipment.
+
+I'm still unsure about music in this experience. I listed it on the sound list just in case but I'm not sure it fits the “vibe” of the project. I want the option of having music but I'm not sure what the best way to do that is. A classmate suggested using headphones on the character which seems like a very realistic option so it might be worth giving a go.
+
+Asset sourcing can be hard. From the 3D assets (AleksandrIvanov, 2022) I found online, I can tell that the realism of the park will likely suffer. Hopefully I can use sound to try and remedy the problem a bit. Sourcing assets has been time consuming so far and may force me to readjust scope later. I need to spend some time to figure out the most critical interactions in the park.
+
+# References
+
+Dún na Sí (2022) *Outdoor activities in Westmeath*, *Dún na Sí Amenity & Heritage Park*. Available at: [[https://dunnasi.ie/amenity-park/]{.underline}](https://dunnasi.ie/amenity-park/) (Accessed: 12 October 2024).
+
+AlexG (no date) *UE5: How to add and use sound wav and sound cues to create environment sounds in Unreal engine 5*, *UE5: How to Add and Use Sound Wav and Sound Cues to Create Environment Sounds in Unreal Engine 5 Tutorial*. Available at: [[https://www.worldofleveldesign.com/categories/ue5/sound-wav-sound-cues.php]{.underline}](https://www.worldofleveldesign.com/categories/ue5/sound-wav-sound-cues.php) (Accessed: 12 October 2024).
+
+AleksandrIvanov (2022) *Stylized eastern village in environments*, *UE marketplace*. Available at: [[https://www.unrealengine.com/marketplace/en-US/product/stylized-eastern-village]{.underline}](https://www.unrealengine.com/marketplace/en-US/product/stylized-eastern-village) (Accessed: 14 October 2024).
+
+Juegoadmin (2024) *Importance of sound design in games: A detailed guide*, *Juego Studio*. Available at: [[https://www.juegostudio.com/blog/sound-design-in-games]{.underline}](https://www.juegostudio.com/blog/sound-design-in-games) (Accessed: 14 October 2024).
+
+Phantom Cave (2024) *The role of music and sound in Video Games*, *LinkedIn*. Available at: [[https://www.linkedin.com/pulse/role-music-sound-video-games-phantom-cave-ucpef]{.underline}](https://www.linkedin.com/pulse/role-music-sound-video-games-phantom-cave-ucpef) (Accessed: 14 October 2024).
+
+Andersen, G. (2024) *The role of Sound Design in immersive gameplay: Creating atmospheric experiences*, *MoldStud*. Available at: [[https://moldstud.com/articles/p-the-role-of-sound-design-in-immersive-gameplay-creating-atmospheric-experiences]{.underline}](https://moldstud.com/articles/p-the-role-of-sound-design-in-immersive-gameplay-creating-atmospheric-experiences) (Accessed: 14 October 2024).

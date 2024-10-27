@@ -11,7 +11,7 @@ After evaluating my options, I decided to opt for paid software. Between [iPi](h
 
 This brings the total to €190.67 with the hardware costs of €52.87 and Brekel Body V2/V3 costing €137.80.
 
-If I wanted more accuracy, I would need to spend €382.26 on 2 Kinects and €276.52 on Brekel with Multi-Sensor support. With this budget, maybe it's time to start considering actual mocap solutions like Rokoko. 
+If I wanted more accuracy, I would need to spend €382.26 on 2 Kinects and €276.52 on Brekel with Multi-Sensor support. With this budget, maybe it's time to start considering actual mocap solutions like Rokoko.
 
 # Progress with Brekel
 
