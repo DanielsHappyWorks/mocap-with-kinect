@@ -8,8 +8,7 @@ website:
     left:
       - text: "Blog"
         href: /
-      - text: "Artefact Design"
-        href: artefact_design.qmd
+      - artefact_design.qmd
       - outline.qmd
       - progress_report.qmd
     right:

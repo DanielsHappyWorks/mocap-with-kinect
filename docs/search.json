@@ -25,7 +25,7 @@
     "href": "index.html",
     "title": "Using the Kinect to Animate Characters in a Video Game",
     "section": "",
-    "text": "Brekel: Improved MoCap at increased cost\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFailed eldrich horrors made with free software\n\n\n\n\n\n\nkinect\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnimation Sources\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOutlining Project Artifact\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\nNo matching items"
+    "text": "Aplha Artefact & User Feedback\n\n\n\n\n\n\ndemo\n\n\nanimation\n\n\ntesting\n\n\n\n\n\n\n\n\n\nOct 30, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nTwo more animations: Idle & Swinging\n\n\n\n\n\n\nkinect\n\n\nanimation\n\n\nintegration\n\n\n\n\n\n\n\n\n\nOct 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrekel: Improved MoCap at increased cost\n\n\n\n\n\n\nbudget\n\n\nsetup\n\n\nkinect\n\n\nanimation\n\n\nintegration\n\n\n\n\n\n\n\n\n\nOct 19, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nFailed eldrich horrors made with free software\n\n\n\n\n\n\nkinect\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 18, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nAnimation Sources\n\n\n\n\n\n\nsource\n\n\nanimation\n\n\n\n\n\n\n\n\n\nOct 12, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nOutlining Project Artifact\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nOct 3, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nPositioning for full body capture\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 2, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nSetting up the Kinect\n\n\n\n\n\n\nsetup\n\n\nkinect\n\n\n\n\n\n\n\n\n\nAug 1, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nKinect Price Analysis\n\n\n\n\n\n\nbudget\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 27, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nMotion capture on a budget\n\n\n\n\n\n\nidea\n\n\nkinect\n\n\n\n\n\n\n\n\n\nJul 23, 2024\n\n\n\n\n\n\n\n\n\n\n\n\nBrainstorming Ideas\n\n\n\n\n\n\nidea\n\n\n\n\n\n\n\n\n\nJul 20, 2024\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "outline.html",
@@ -114,50 +114,64 @@
   {
     "objectID": "artefact_design.html",
     "href": "artefact_design.html",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "",
     "text": "It is an interactive experience where you get to walk around a park. There are multiple points of interest the player can visit and interact with. These areas will have unique sounds to immerse the user in the experience.\nThis project is inspired by one of my favorite activities which is visiting my local park for a walk and taking some time to take the nature in. This game is loosely based on the Dún na Sí Amenity & Heritage Park in the Irish Midlands (Dún na Sí, 2022)."
   },
   {
     "objectID": "artefact_design.html#environmental-realism",
     "href": "artefact_design.html#environmental-realism",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "Environmental Realism",
     "text": "Environmental Realism\nAudio should match the player’s expectations and bring virtual worlds to life, making them feel more realistic and believable (Andersen, 2024). The correct sounds should play in the environment and when the player does something. Missing the mark on this will make the experience unappealing to everyone."
   },
   {
     "objectID": "artefact_design.html#guided-exploration",
     "href": "artefact_design.html#guided-exploration",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "Guided Exploration",
     "text": "Guided Exploration\nSounds can guide player to points of interest without them even realizing it (Phantom Cave,2024). Distant points can use proximity sounds to tell the player there is something there. This can indicate points of interest to the player, for example we can hear a fisherman fishing in the distance."
   },
   {
     "objectID": "artefact_design.html#setting-the-mood",
     "href": "artefact_design.html#setting-the-mood",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "Setting the Mood",
     "text": "Setting the Mood\nThe sound design can create the atmosphere intended by the game (Juegoadmin, 2024). We can use it to set the mood and elicit emotions. This experience aims to be lively yet calming while evoking a feeling of nostalgia and warmth."
   },
   {
     "objectID": "artefact_design.html#how-will-the-sounds-be-recorded",
     "href": "artefact_design.html#how-will-the-sounds-be-recorded",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "How will the sounds be recorded",
     "text": "How will the sounds be recorded\nThe sounds will be recorded in Audacity using a portable computer called a Steam Deck. A Yeti Nano microphone with headphones connected directly to it will be used as the audio input device. The goal here is to work with the best equipment I own to record the sounds in the hopes that the quality is good.\nThe sounds will be produced using the .wav format to allow better quality of recording."
   },
   {
     "objectID": "artefact_design.html#how-will-the-sounds-be-sourced",
     "href": "artefact_design.html#how-will-the-sounds-be-sourced",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "How will the sounds be sourced",
     "text": "How will the sounds be sourced\nI will source sounds with the license Creative Commons 0 online on websites like freesound.org. I will keep track of these for future documentation."
   },
   {
     "objectID": "artefact_design.html#areas-of-interest",
     "href": "artefact_design.html#areas-of-interest",
-    "title": "A Walk in the Park - Audio Game Design",
+    "title": "Audio Game Design",
     "section": "Areas of Interest",
     "text": "Areas of Interest\nThere are multiple areas of interest in the park. These are the playground, football pitch, fishing spot and art pieces. Each area will be explorable with some interactions for the player to partake in.\nAvailable Interactions:\n\nWatching a fisherman fish\nPlaying with a football\nChild swinging on a swing with parent watching over them\nSpinning on a merry-go-round\nAppreciating some art sculptures\nSwimming\nBird watching\nNPCs walking around the park"
+  },
+  {
+    "objectID": "posts/idle-and-swinging/index.html",
+    "href": "posts/idle-and-swinging/index.html",
+    "title": "Two more animations: Idle & Swinging",
+    "section": "",
+    "text": "Idle & Swinging Animation\nFor both animations I followed the process I defined in the previous blog. I took the Brekel animations into blender to fix up what I could and then imported them into UE5.\nI had some issues with the idle animation recording.I had to make something simpler in the end as crossing my arms caused the hands to go all over the place.\n\nFor the swinging animation I used my chair. This worked out really better than expected. The Kinect didn’t seem to happy with feet not being on the floor and my hands didnt stay perfectly in place but it still turned out well. I think the swinging animation worked out better than the Idle animation.\n\nThe loop on both animations isn’t great but its very hard to time the loop when working within the 10 second animation limit of the Brekel trial.\n\n\nAnimation Integration\nWhen importing the Idle animation to UE5 I encountered some issues. Multiple animations were exported even though I only seen the one in blender. I would see the original Mixamo animation and all the Brekel animations I imported and re targeted. I left it alone for the Idle but knew it was something I needed to figure out.\n\nDuring the exporting of the Swing animation the same problem occurred. This time I decided to spend the time to figure it out. Turns out Blender just un-links the animations instead of deleting them when they are removed form a skeleton (Forwood, 2020). UE5 imports all of them as they get exported .fbx file.\nThe solution to the problem was:\n\nOpen the Action Editor\nOrphan the animations using Shift + X icon beside the animation list \nThe animation will be now marked with an O symbol.\nSave and restart blender (This step baffles me with confusion, the animations are cleaned up on application exit which is just stupid)\nExport the animation\n\nThe animations were then added to blueprints in UE5 and were officially embedded in the game.\n\n\n\nReferences:\n\nForwood, A. (2020) How to remove all animations, Blender Artists Community. Available at: https://blenderartists.org/t/how-to-remove-all-animations/1246124 (Accessed: 27 October 2024)."
+  },
+  {
+    "objectID": "posts/alpha-artefact/index.html",
+    "href": "posts/alpha-artefact/index.html",
+    "title": "Aplha Artefact & User Feedback",
+    "section": "",
+    "text": "Alpha Artefact\nThe alpha artefact is progressing smoothly on the software engineering and sound design end. A beta version should be ready for the symposium.\nThe artifact is available here on itch.io.\n\n\n\nRelevant Feedback from user testing\nAs part of the user testing I got some feedback relevant to the visuals that is of interest to this project.\nThis includes:\n\nIt’s a very vibrant and colourful park. It’s peaceful, and the fact that it is interactive is a lot of fun. Rated it down a bit because there are some areas which could use some improvement, e.g. lack of audio, some glitching with the animations and a river you can fall into with no way out.\nIt’s a very vibrant and colourful park. It’s peaceful, and the fact that it is interactive is a lot of fun. Rated it down a bit because there are some areas which could use some improvement, e.g. lack of audio, some glitching with the animations and a river you can fall into with no way out.\nThe animations of the other people were scary\n\nAs grim as this feedback seems the scores for visuals are still really good.\n\n\n\nReflections\nI agree with the users that the animations are a bit glitchy causing them to be unsettling. This unfortunately has a lot to do with my inability to record more than 10 seconds at time in Brekel causing me to rush but at the same time the quality that Brekel produces can be inadequate and rough around the edges with my current setup.\nThe animations are also not a perfect loop so if you look at them enough you will see the issues. I did my best to get as close to perfect as possible but I don’t have the time and skills to make the animations seamless. This is a rereach project of its own and is also contributing to the issues mentioned by the users."
   }
 ]

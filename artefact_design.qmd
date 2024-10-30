@@ -1,5 +1,5 @@
 ---
-title: "A Walk in the Park - Audio Game Design"
+title: "Audio Game Design"
 about:
   template: solana
 ---
@@ -85,7 +85,7 @@ Available Interactions:
 # Sound List
 
 |     |                                |                |             |          |        |
-|-----|--------------------------------|----------------|-------------|----------|--------|
+|-----------|-------------------|-----------|-----------|-----------|-----------|
 | ID  | Description                    | Location       | Trigger     | Category | Plan   |
 | 0   | Optional piano/guitar music    | Global         | Toggle?     | Music    | Source |
 | 1   | Footsteps on Gravel            | Gravel         | Walk        | SFX      | Record |

@@ -1,7 +1,7 @@
 ---
 title: "Brekel: Improved MoCap at increased cost"
 date: "2024-10-19"
-categories: [budget, kinect, animation]
+categories: [budget, setup, kinect, animation, integration]
 image: "image.gif"
 ---
 

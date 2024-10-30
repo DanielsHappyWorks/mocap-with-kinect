@@ -1,0 +1,44 @@
+---
+title: "Two more animations: Idle & Swinging"
+date: "2024-10-27"
+categories: [kinect, animation, integration]
+image: "animations.gif"
+---
+
+# Idle & Swinging Animation
+
+For both animations I followed the process I defined in the previous blog. I took the Brekel animations into blender to fix up what I could and then imported them into UE5.
+
+I had some issues with the idle animation recording.I had to make something simpler in the end as crossing my arms caused the hands to go all over the place.
+
+![](idle.gif)
+
+For the swinging animation I used my chair. This worked out really better than expected. The Kinect didn't seem to happy with feet not being on the floor and my hands didnt stay perfectly in place but it still turned out well. I think the swinging animation worked out better than the Idle animation.
+
+![](swing.gif)
+
+The loop on both animations isn't great but its very hard to time the loop when working within the 10 second animation limit of the Brekel trial.
+
+# Animation Integration
+
+When importing the Idle animation to UE5 I encountered some issues. Multiple animations were exported even though I only seen the one in blender. I would see the original Mixamo animation and all the Brekel animations I imported and re targeted. I left it alone for the Idle but knew it was something I needed to figure out.
+
+![](import%20issue.jpg)
+
+During the exporting of the Swing animation the same problem occurred. This time I decided to spend the time to figure it out. Turns out Blender just un-links the animations instead of deleting them when they are removed form a skeleton (Forwood, 2020). UE5 imports all of them as they get exported .fbx file.
+
+The solution to the problem was:
+
+1.  Open the Action Editor
+2.  Orphan the animations using Shift + X icon beside the animation list ![](delete.jpg)
+3.  The animation will be now marked with an O symbol.
+4.  Save and restart blender (This step baffles me with confusion, the animations are cleaned up on application exit which is just stupid)
+5.  Export the animation
+
+The animations were then added to blueprints in UE5 and were officially embedded in the game.
+
+![](animations.gif)
+
+# References:
+
+1.  Forwood, A. (2020) *How to remove all animations*, *Blender Artists Community*. Available at: https://blenderartists.org/t/how-to-remove-all-animations/1246124 (Accessed: 27 October 2024).
