@@ -7,31 +7,31 @@ image: "animations.gif"
 
 # Idle & Swinging Animation
 
-For both animations I followed the process I defined in the previous blog. I took the Brekel animations into blender to fix up what I could and then imported them into UE5.
+For both animations, I followed the process I defined in the previous blog. I took the Brekel animations into Blender to fix up what I could and then imported them into UE5.
 
-I had some issues with the idle animation recording.I had to make something simpler in the end as crossing my arms caused the hands to go all over the place.
+I had some issues with the idle animation recording. I had to make something simpler in the end as crossing my arms caused the hands to go all over the place.
 
 ![](idle.gif)
 
-For the swinging animation I used my chair. This worked out really better than expected. The Kinect didn't seem to happy with feet not being on the floor and my hands didnt stay perfectly in place but it still turned out well. I think the swinging animation worked out better than the Idle animation.
+For the swinging animation, I used my chair. This worked out better than expected. The Kinect didn't seem too happy with my feet not being on the floor and my hands didn't stay perfectly in place but it still turned out well. I think the Swinging animation worked out better than the Idle animation.
 
 ![](swing.gif)
 
-The loop on both animations isn't great but its very hard to time the loop when working within the 10 second animation limit of the Brekel trial.
+The loop on both animations isn't great but it's very hard to time the loop when working within the 10 second animation limit of the Brekel trial.
 
 # Animation Integration
 
-When importing the Idle animation to UE5 I encountered some issues. Multiple animations were exported even though I only seen the one in blender. I would see the original Mixamo animation and all the Brekel animations I imported and re targeted. I left it alone for the Idle but knew it was something I needed to figure out.
+When importing the Idle animation to UE5, I encountered some issues. Multiple animations were exported even though I only saw the one in Blender. I would see the original Mixamo animation and all the Brekel animations I imported and re-targeted. I left it alone for the Idle but knew it was something I needed to figure out.
 
 ![](import%20issue.jpg)
 
-During the exporting of the Swing animation the same problem occurred. This time I decided to spend the time to figure it out. Turns out Blender just un-links the animations instead of deleting them when they are removed form a skeleton (Forwood, 2020). UE5 imports all of them as they get exported .fbx file.
+During the exporting of the Swing animation, the same problem occurred. This time, I decided to spend the time to figure it out. Turns out Blender just un-links the animations instead of deleting them when they are removed from a skeleton (Forwood, 2020). UE5 imports all of them as they get exported in the .fbx file.
 
 The solution to the problem was:
 
 1.  Open the Action Editor
 2.  Orphan the animations using Shift + X icon beside the animation list ![](delete.jpg)
-3.  The animation will be now marked with an O symbol.
+3.  The animation will now be marked with an O symbol.
 4.  Save and restart blender (This step baffles me with confusion, the animations are cleaned up on application exit which is just stupid)
 5.  Export the animation
 

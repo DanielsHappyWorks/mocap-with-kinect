@@ -1,5 +1,5 @@
 ---
-title: "Aplha Artefact & User Feedback"
+title: "Alpha Artefact & User Feedback"
 date: "2024-10-30"
 categories: [demo, animation, testing]
 image: "feedback.jpg"
@@ -9,27 +9,20 @@ image: "feedback.jpg"
 
 The alpha artefact is progressing smoothly on the software engineering and sound design end. A beta version should be ready for the symposium.
 
-The artifact is available [here on itch.io](https://boopdood.itch.io/a-walk-in-the-park).
+The artefact is available [here on itch.io](https://boopdood.itch.io/a-walk-in-the-park).
 
 {{< video https://www.youtube.com/watch?v=dnXfzCFACHY >}}
 
 # Relevant Feedback from user testing
 
-As part of the user testing I got some feedback relevant to the visuals that is of interest to this project.
+As part of the user testing, I got some feedback relevant to the visuals that is of interest to this project.
 
 This includes:
 
-1.  It's a very vibrant and colourful park. It's peaceful, and the fact that
-    it is interactive is a lot of fun. Rated it down a bit because there
-    are some areas which could use some improvement, e.g. lack of audio,
-    some glitching with the animations and a river you can fall into with no
-    way out.
+1.  It's a very vibrant and colourful park. It's peaceful, and the fact that it is interactive is a lot of fun. Rated it down a bit because there are some areas which could use some improvement, e.g. lack of audio, some glitching with the animations and a river you can fall into with no way out.
 
-2.  It's a very vibrant and colourful park. It's peaceful, and the fact that
-    it is interactive is a lot of fun. Rated it down a bit because there
-    are some areas which could use some improvement, e.g. lack of audio,
-    some glitching with the animations and a river you can fall into with no
-    way out.
+2.  It is a beautiful environment. It looks like a really nice park to visit.
+    The animations were a bit off in places, and the dad in the park seems like a giant when up close.
 
 3.  The animations of the other people were scary
 
@@ -39,6 +32,6 @@ As grim as this feedback seems the scores for visuals are still really good.
 
 # Reflections
 
-I agree with the users that the animations are a bit glitchy causing them to be unsettling. This unfortunately has a lot to do with my inability to record more than 10 seconds at time in Brekel causing me to rush but at the same time the quality that Brekel produces can be inadequate and rough around the edges with my current setup.
+I agree with the users that the animations are a bit glitchy causing them to be unsettling. This unfortunately has a lot to do with my inability to record more than 10 seconds at a time in Brekel causing me to rush but at the same time the quality that Brekel produces can be inadequate and rough around the edges with my current setup.
 
-The animations are also not a perfect loop so if you look at them enough you will see the issues. I did my best to get as close to perfect as possible but I don't have the time and skills to make the animations seamless. This is a rereach project of its own and is also contributing to the issues mentioned by the users.
+The animations are also not a perfect loop so if you look at them enough you will see the issues. I did my best to get as close to perfect as possible but I don't have the time and skills to make the animations seamless. This is a research project of its own and is also contributing to the issues mentioned by the users.
