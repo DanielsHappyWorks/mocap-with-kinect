@@ -7,7 +7,7 @@ image: "animation.gif"
 
 # What is Rokoko Vision?
 
-It is a free AI motion capture tool that can convert recordings up to 15 seconds into animations. To record longer animations without restrictions, the licences start at $20 per month (Rokoko, n.d.).
+It is a free AI motion capture tool that can convert recordings up to 15 seconds into animations. To record longer animations without restrictions, the licences start at \$20 per month (Rokoko, n.d.).
 
 # The Process
 
@@ -30,4 +30,3 @@ I also tried using a pre-recorded video and that refused to convert to an animat
 # References
 
 Rokoko (no date) Rokoko vision: Free ai motion capture tool, Rokoko Vision: Free AI Motion Capture Tool. Available at: <https://www.rokoko.com/products/vision> (Accessed: 25 November 2024).
-
