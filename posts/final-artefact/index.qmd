@@ -1,0 +1,18 @@
+---
+title: "The End: Final Artefact"
+date: "2024-11-29"
+categories: [demo, animation]
+image: "end.gif"
+---
+
+After many weeks of trial and error, I arrived at the end of this project. The last blog entry contains a demo and some final thoughts.
+
+# Artefact Demo
+
+{{< video https://www.youtube.com/watch?v=cv6JO_orQtY >}}
+
+# Final Thoughts
+
+This was an interesting experience. I set out to use the Kinect because I thought it might be a solid budget alternative to motion capture to find out that AI is cheaper and easier to use. The Kinect approach gets expensive fast due to hardware and software costs.
+
+I learned a lot about rigging and animation in the process by encountering multiple problems and solutions on the way. The animation quality is passable at the best of times. I require more knowledge on animation to fix some glaring issues like seamless looping. As a base for animating characters, this is a good start that has taught me a lot.
